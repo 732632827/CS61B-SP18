@@ -27,7 +27,7 @@ public class NBody{
         return Planets;
     }
     
-    public static void drawBg(String imageToDraw, double radius) {
+    private static void drawBg(String imageToDraw, double radius) {
 		/** Sets up the universe so it goes from 
 		  * -100, -100 up to 100, 100 */
 		StdDraw.setScale(-radius, radius);
